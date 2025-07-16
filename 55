@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SHA4T0 - Ethical Hacker</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <style>
+    body {
+      margin: 0;
+      background-color: #0d0d0d;
+      font-family: 'Orbitron', sans-serif;
+      color: #33ff33;
+      text-align: center;
+    }
+    header, footer {
+      padding: 2rem;
+      background-color: #111;
+    }
+    h1 {
+      font-size: 3rem;
+      margin: 0.5rem 0;
+    }
+    nav a {
+      color: #33ff33;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 0.75rem;
+      margin-bottom: 1rem;
+      border: none;
+      background: #222;
+      color: #33ff33;
+      font-size: 1rem;
+    }
+    .contact-form button {
+      background: #33ff33;
+      color: black;
+      padding: 0.75rem 2rem;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+    .social i {
+      margin: 0 10px;
+      color: #33ff33;
+      font-size: 1.5rem;
+    }
+    img.hero {
+      width: 100%;
+      max-width: 500px;
+      margin: 2rem auto;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SHA4T0</h1>
+    <p>The Ethical Hacker | Pentester | Cyber Warrior</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <img src="https://i.imgur.com/OuEFd6Y.jpeg" alt="Hacker" class="hero" />
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m <strong>Shanto aka SHA4T0</strong>, an ethical hacker skilled in web & network penetration testing, mobile security, and digital forensics. I specialize in tools like Metasploit, Burp Suite, and Nmap.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Tools & Skills</h2>
+    <ul>
+      <li>Metasploit Framework</li>
+      <li>Nmap, Burp Suite, Wireshark</li>
+      <li>Python for automation</li>
+      <li>Facebook & Mobile Security</li>
+      <li>Kali Linux & Parrot OS</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="https://formsubmit.co/kmdshanto0075@gmail.com" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SHA4T0. All rights reserved.</p>
+    <div class="social">
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-telegram"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </footer>
+</body>
+</html>
